@@ -1,0 +1,22 @@
+{
+    "name": "sniper-crypto",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "author": "Cedric",
+    "license": "ISC",
+    "dependencies": {
+        "@binance-chain/javascript-sdk": "^4.2.0",
+        "@ethereumjs/common": "^2.6.4",
+        "@ethereumjs/tx": "^3.5.1",
+        "dotenv": "^16.0.1",
+        "ethereumjs-tx": "^2.1.2",
+        "node-gyp-build": "^4.4.0",
+        "web3": "^1.7.3"
+    }
+}
